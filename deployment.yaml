@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: domain1-app
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: app1
@@ -24,7 +24,7 @@ kind: Deployment
 metadata:
   name: domain2-app
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: app2
